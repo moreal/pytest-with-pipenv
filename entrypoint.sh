@@ -1,3 +1,3 @@
 #!/bin/sh
-pipenv update
+pipenv update --dev
 pipenv run -- py.test
